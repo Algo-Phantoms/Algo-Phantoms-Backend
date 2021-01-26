@@ -54,6 +54,10 @@ This project follows the [MIT License](https://choosealicense.com/licenses/mit/)
 </tbody></table>
 
 
+## If you liked the project don't forget to star 🌟 and fork 🍽 the project.
+
+<h2 align="center">Made with ❤ by Algo Phantoms</h2>
+
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
