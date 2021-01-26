@@ -14,9 +14,14 @@
 
 🚀 Give your DSA journey a proper guide using pathways in the app.
 
+## Maintainers 😇
 
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/diyajaiswal11"><img alt="" src="https://avatars.githubusercontent.com/diyajaiswal11" width="100px;"><br><sub><b>Diya Jaiswal</b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Phantoms-Backend/commits?author=diyajaiswal11" title="Code">💻 🖋</a></td> </a></td>
+  </tr>
+</tbody></table>
 
-Backend Repository for Algo-Phantoms. 
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
@@ -25,11 +30,3 @@ Backend Repository for Algo-Phantoms.
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 
-
-## Maintainers 😇
-
-<table>
-  <tbody><tr>
-    <td align="center"><a href="https://github.com/diyajaiswal11"><img alt="" src="https://avatars.githubusercontent.com/diyajaiswal11" width="100px;"><br><sub><b>Diya Jaiswal</b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Phantoms-Backend/commits?author=diyajaiswal11" title="Code">💻 🖋</a></td> </a></td>
-  </tr>
-</tbody></table>
