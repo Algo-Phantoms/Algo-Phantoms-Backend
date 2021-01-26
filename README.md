@@ -21,7 +21,7 @@
 - Django
 - Django REST Framework
 
-## Contribution Guidelines ⚙️
+## ⚙️ Contribution Guidelines 
 
 * Make sure you do not copy codes from external sources because that work will not be considered. Plagiarism is strictly not allowed.
 * You can only work on issues that you have been assigned to you.
@@ -29,15 +29,15 @@
 * If you have modified/added code work, make sure the code compiles before submitting.
 * Do not update the **[README.md](https://github.com/Algo-Phantoms/Algo-Phantoms-Backend/blob/main/README.md).**
 
-## Code Of Conduct:
+## 📖 Code Of Conduct:
 
 You can find our Code of Conduct [here](https://github.com/Algo-Phantoms/Algo-Phantoms-Backend/blob/main/CODE_OF_CONDUCT.md).
 
-## License 📝 
+## 📝 License  
 
 This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
 
-## Maintainers 😇
+## 😇 Maintainers 
 <table>
   <tbody><tr>
     <td align="center"><a href="https://github.com/diyajaiswal11"><img alt="" src="https://avatars.githubusercontent.com/diyajaiswal11" width="100px;"><br><sub><b> Diya Jaiswal</b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=diyajaiswal11" title="Code">💻 🖋</a></td> </a>
