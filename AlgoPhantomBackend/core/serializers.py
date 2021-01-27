@@ -4,7 +4,6 @@ from rest_framework import serializers
 from rest_framework.authtoken.models import Token
 from django.contrib.auth.models import User
 from . import models
-from .utils import *
 
 
 class CoreRegisterSerializer(RegisterSerializer):
@@ -28,7 +27,6 @@ class CoreRegisterSerializer(RegisterSerializer):
         self.cleaned_data = self.get_cleaned_data()
         user.save()
         adapter.save_user(request, user, self)
-        #send_mail(request, user.username, user, user.email)
         return user
 
     
