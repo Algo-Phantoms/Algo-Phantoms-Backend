@@ -21,6 +21,62 @@
 - Django
 - Django REST Framework
 
+## 💫 Quick Start
+
+- Fork and Clone the repository using-
+```
+git clone https://github.com/Algo-Phantoms/Algo-Phantoms-Backend.git
+```
+- Create a Branch- 
+```
+git checkout -b <branch_name>
+```
+- Create virtual environment-
+```
+python -m venv env
+env\Scripts\activate
+```
+- Install dependencies using-
+```
+pip install -r requirements.txt
+```
+*If you have python2 and python3 installed you need to specify python3 by using command:*
+```
+python3 -m pip install -r requirements.txt
+```
+
+- Headover to Project Directory- 
+```
+cd cd AlgoPhantomBackend
+```
+- Make migrations using-
+```
+python manage.py makemigrations
+```
+*If you have python2 and python3 installed you need to specify python3 by using command:*
+```
+python3 manage.py makemigrations
+```
+
+- Migrate Database-
+```
+python manage.py migrate
+```
+- Create a superuser-
+```
+python manage.py createsuperuser
+```
+- Run server using-
+```
+python manage.py runserver
+```
+- Push Changes-
+```
+git add .
+git commit -m "<your commit message>"
+git push --set-upstream origin <branch_name>
+```
+
 ## ⚙️ Contribution Guidelines 
 
 * Make sure you do not copy codes from external sources because that work will not be considered. Plagiarism is strictly not allowed.
