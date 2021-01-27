@@ -28,18 +28,15 @@ class CoreRegisterSerializer(RegisterSerializer):
         self.cleaned_data = self.get_cleaned_data()
         user.save()
         adapter.save_user(request, user, self)
-        send_mail(request, user.username, user, user.email)
+        #send_mail(request, user.username, user, user.email)
         return user
 
     
-
 class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
         fields = ('email', 'username', 'password',)
-
-
 
    
 class TokenSerializer(serializers.ModelSerializer):

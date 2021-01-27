@@ -15,10 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from rest_auth.registration.views import VerifyEmailView, RegisterView, LoginView
+from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('core.urls')),
-    path('rest-auth/', include('rest_auth.urls')),
-    path('rest-auth/registration/', include('rest_auth.registration.urls')),
+    # path('',include('core.urls')),
+    # path('rest-auth/', include('rest_auth.urls')),
+    # path('rest-auth/registration/', include('rest_auth.registration.urls')),
+
+    path('', include('rest_auth.urls')),
+    path('accounts/', include('allauth.urls')),
+    path('rest-auth/login/', LoginView.as_view(), name='account_login'),
+    path('registration/', include('rest_auth.registration.urls')),
+    path('rest-auth/registration/', RegisterView.as_view(), name='account_signup'),
+    path('rest-auth/account-confirm-email/', VerifyEmailView.as_view(),name='account_email_verification_sent'),
+    url('rest-auth/account-confirm-email/(?P<key>[-:\w]+)/$', VerifyEmailView.as_view(),name='account_confirm_email'),
 ]
