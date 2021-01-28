@@ -21,6 +21,8 @@ from django.conf.urls import url
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('core.urls')),
+    path('quiz/',include('quiz.urls')),
+    
     # path('rest-auth/', include('rest_auth.urls')),
     path('', include('rest_auth.urls')),
     path('accounts/', include('allauth.urls')),
