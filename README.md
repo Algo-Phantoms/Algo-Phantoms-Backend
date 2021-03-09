@@ -47,7 +47,7 @@ python3 -m pip install -r requirements.txt
 
 - Headover to Project Directory- 
 ```
-cd cd AlgoPhantomBackend
+cd AlgoPhantomBackend
 ```
 - Make migrations using-
 ```
