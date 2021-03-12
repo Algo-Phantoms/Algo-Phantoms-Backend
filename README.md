@@ -99,13 +99,8 @@ This project follows the [MIT License](https://choosealicense.com/licenses/mit/)
     <td align="center"><a href="https://github.com/diyajaiswal11"><img alt="" src="https://avatars.githubusercontent.com/diyajaiswal11" width="100px;"><br><sub><b> Diya Jaiswal</b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=diyajaiswal11" title="Code">💻 </a></td> </a>
   </td>
   
-  <td align="center"><a href="https://github.com/todi-2000"><img alt="" src="https://avatars.githubusercontent.com/todi-2000" width="100px;"><br><sub><b>Manshi Todi</b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=todi-2000" title="Code">💻 </a></td> </a>
-  </td>
- 
  <td align="center"><a href="https://github.com/prajul007"><img alt="" src="https://avatars.githubusercontent.com/prajul007" width="100px;"><br><sub><b> Prajul Gupta </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=prajul007" title="Code">💻 </a></td></a></td>
  
- <td align="center"><a href="https://github.com/MAJOR-BEAST"><img alt="" src="https://avatars.githubusercontent.com/MAJOR-BEAST" width="100px;"><br><sub><b> Paurush Tiwari </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=MAJOR-BEAST" title="Code">💻</a></td></a></td>
-
   </tr>
 </tbody></table>
 
