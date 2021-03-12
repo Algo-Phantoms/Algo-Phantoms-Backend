@@ -93,30 +93,30 @@ ALGO-PHANTOMS-BACKEND                             # Project Name
 |   |
 |   └──migrations                                 # Migrations                   
 |   ├──_init__.py              
-|   ├──admin.py                                   #                         [defualt]
-|   ├──apps.py                                    # Define App name         [defualt]
-|   ├──models.py                                  # Create models           [defualt]
+|   ├──admin.py                                   #                         [Defualt]
+|   ├──apps.py                                    # Define App name         [Defualt]
+|   ├──models.py                                  # Create models           [Defualt]
 |   ├──serializers.py                                                       [Created]
 |   ├──signals.py                                                           [Created]
-|   ├──tests.py                                   # Test                    [defualt]
+|   ├──tests.py                                   # Test                    [Defualt]
 |   ├──tokens.py                                  #                         [Created]
 |   ├──urls.py                                    #                         [Created]
 |   ├──utils.py                                   #                         [Created]
-|   └──views.py                                   #                         [defualt]
+|   └──views.py                                   #                         [Defualt]
 |
 ├───quiz                                          # Quiz App Directory
 |   |
-|   └──migrations                                 #                         [defualt]
-|   ├──_init__.py                                 #                         [defualt]
-|   ├──admin.py                                   #                         [defualt]
-|   ├──apps.py                                    #                         [defualt]
-|   ├──models.py                                  #                         [defualt]
+|   └──migrations                                 #                         [Defualt]
+|   ├──_init__.py                                 #                         [Defualt]
+|   ├──admin.py                                   #                         [Defualt]
+|   ├──apps.py                                    #                         [Defualt]
+|   ├──models.py                                  #                         [Defualt]
 |   ├──serializers.py                             #                         [Created]
-|   ├──tests.py                                   #                         [defualt]
+|   ├──tests.py                                   #                         [Defualt]
 |   ├──urls.py                                    #                         [Created]
-|   └──views.py                                   #                         [defualt]
+|   └──views.py                                   #                         [Defualt]
 |
-├──manage.py                                      #                         [defualt]
+├──manage.py                                      #                         [Defualt]
 └──requirements.txt                               #                         [Created]
 
 
