@@ -1,4 +1,4 @@
-## Related Issuse
+## Related Issue
 
 - Info about Issue or bug
 
@@ -20,9 +20,3 @@ Example how to mark a checkbox:-
 - [ ] I have commented my code, particularly in hard-to-understand areas.
 - [ ] I have made corresponding changes to the documentation.
 - [ ] My changes generate no new warnings.
-
-## Screenshots
-
-|        Original         |          Updated           |
-| :---------------------: | :------------------------: |
-| **original screenshot** | <b>updated screenshot </b> |
