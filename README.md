@@ -146,6 +146,12 @@ This project follows the [MIT License](https://choosealicense.com/licenses/mit/)
   
  <td align="center"><a href="https://github.com/prajul007"><img alt="" src="https://avatars.githubusercontent.com/prajul007" width="100px;"><br><sub><b> Prajul Gupta </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=prajul007" title="Code">💻 </a></td></a></td>
  
+ <td align="center"><a href="https://github.com/hmangukia"><img alt="" src="https://avatars.githubusercontent.com/hmangukia" width="100px;"><br><sub><b> Hetal Mangukia</b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=hmangukia" title="Code">💻 </a></td> </a>
+  </td>
+  
+  <td align="center"><a href="https://github.com/harsh-9in"><img alt="" src="https://avatars.githubusercontent.com/harsh-9in" width="100px;"><br><sub><b> Harsh Kumar</b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=harsh-9in" title="Code">💻 </a></td> </a>
+  </td>
+ 
   </tr>
 </tbody></table>
 
