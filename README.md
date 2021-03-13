@@ -76,6 +76,51 @@ git add .
 git commit -m "<your commit message>"
 git push --set-upstream origin <branch_name>
 ```
+## Project Architecture
+```
+ALGO-PHANTOMS-BACKEND                             # Project Name
+|
+├───AlgoPhantomBackend                            # Project Directory
+|   |
+|   └──__pychache__                               # Cache Folder            [Default]
+|   ├──__init__.py                                #                         [Default]
+|   ├──asgi.py                                    #                         [Default]
+|   ├──settings.py                                #                         [Default]
+|   ├──urls.py                                    #                         [Default]
+|   └──wsgi.py                                    #                         [Default]
+|
+├───core                                          # Core App Directory
+|   |
+|   └──migrations                                 # Migrations                   
+|   ├──_init__.py              
+|   ├──admin.py                                   #                         [Default]
+|   ├──apps.py                                    # Define App name         [Default]
+|   ├──models.py                                  # Create models           [Default]
+|   ├──serializers.py                                                       [Created]
+|   ├──signals.py                                                           [Created]
+|   ├──tests.py                                   # Test                    [Default]
+|   ├──tokens.py                                  #                         [Created]
+|   ├──urls.py                                    #                         [Created]
+|   ├──utils.py                                   #                         [Created]
+|   └──views.py                                   #                         [Default]
+|
+├───quiz                                          # Quiz App Directory
+|   |
+|   └──migrations                                 #                         [Default]
+|   ├──_init__.py                                 #                         [Default]
+|   ├──admin.py                                   #                         [Default]
+|   ├──apps.py                                    #                         [Default]
+|   ├──models.py                                  #                         [Default]
+|   ├──serializers.py                             #                         [Created]
+|   ├──tests.py                                   #                         [Default]
+|   ├──urls.py                                    #                         [Created]
+|   └──views.py                                   #                         [Default]
+|
+├──manage.py                                      #                         [Default]
+└──requirements.txt                               #                         [Created]
+
+
+```
 
 ## ⚙️ Contribution Guidelines 
 
