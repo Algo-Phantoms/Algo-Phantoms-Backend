@@ -31,11 +31,17 @@ git clone https://github.com/Algo-Phantoms/Algo-Phantoms-Backend.git
 ```
 git checkout -b <branch_name>
 ```
-- Create virtual environment-
+- Create virtual environment- For Windows
 ```
 python -m venv env
 env\Scripts\activate
 ```
+- Create virtual environment- For Linux
+```
+python3 -m venv env or virtualenv env
+source env\bin\activate
+```
+
 - Install dependencies using-
 ```
 pip install -r requirements.txt
