@@ -70,16 +70,14 @@ ALGO-PHANTOMS-BACKEND                             # Project Name
 |
 ├───AlgoPhantomBackend                            # Project Directory
 |   |
-|   └──__pychache__                               # Cache Folder            [Default]
-|   ├──__init__.py                                #                         [Default]
-|   ├──asgi.py                                    #                         [Default]
-|   ├──local_settings.py                          #                         [local file]
-|   ├──settings.py                                #                         [Default]
-|   ├──urls.py                                    #                         [Default]
-|   └──wsgi.py        
-...
-...
-...
+|   .
+|   .
+|   ├──local_settings.py                          #                         [Created]
+.   .
+.   .
+.
+.
+.
 ```
 
 2. Copy paste this in local_settings.py file and change it accordingly.
