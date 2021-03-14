@@ -17,9 +17,9 @@
 🚀 Give your DSA journey a proper guide using pathways in our application.
 
 ## 🛠 Tech Used
-- Python
-- Django
-- Django REST Framework
+- Python3
+- Django-3.1.5
+- Django REST Framework-3.12.2
 
 ## 💫 Quick Start
 
@@ -55,6 +55,71 @@ python3 -m pip install -r requirements.txt
 ```
 cd AlgoPhantomBackend
 ```
+
+- *STEPS TO CREATE YOUR OWN local_settings.py file*
+
+local_settings.py is not present in github repo as it contains important credentials regarding project which should not be shared publicly. 
+
+
+1. Create new file named as local_settings.py just beside settings.py file in 
+same folder. 
+Now your project structure will look like
+
+
+```
+ALGO-PHANTOMS-BACKEND                             # Project Name
+|
+├───AlgoPhantomBackend                            # Project Directory
+|   |
+|   └──__pychache__                               # Cache Folder            [Default]
+|   ├──__init__.py                                #                         [Default]
+|   ├──asgi.py                                    #                         [Default]
+|   ├──local_settings.py                          #                         [local file]
+|   ├──settings.py                                #                         [Default]
+|   ├──urls.py                                    #                         [Default]
+|   └──wsgi.py        
+...
+...
+...
+```
+
+2. Copy paste this in local_settings.py file and change it accordingly.
+
+```
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+SECRET_KEY = 'any 50 digits long unique key with numbers alphabets symbols. anything'
+
+DEBUG = True
+
+ALLOWED_HOSTS = ['*']
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "Put your email id here"
+EMAIL_HOST_PASSWORD = "put your email app password generated here."
+```
+
+3. Dont know how to generate app password for email. check out this blog and set it up accordingly. DO NOT SHARE IT WITH ANYONE.
+#### https://support.google.com/accounts/answer/185833?hl=en
+
+4. If you are not able to setup this EMAIL_HOST_PASSWORD you can comment that for
+testing purpose. But knowing how to do this is very useful in order to send
+automated emails via contact form or for accont creation and all related stuff
+
+*Any sensitive settings which you dont want to share can be put in local_settings.py file*
+
 - Make migrations using-
 ```
 python manage.py makemigrations
@@ -68,7 +133,7 @@ python3 manage.py makemigrations
 ```
 python manage.py migrate
 ```
-- Create a superuser-
+- Create a superuser and put relevant details when prompted-
 ```
 python manage.py createsuperuser
 ```
