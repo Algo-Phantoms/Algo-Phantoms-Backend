@@ -18,7 +18,7 @@
 
 ## 🛠 Tech Used
 
-<img alt="Python" src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img alt="Django" src="https://img.shields.io/badge/django%20-%23092E20.svg?&style=for-the-badge&logo=django&logoColor=white"/> <img alt="Django Rest Framework" src="https://img.shields.io/badge/django rest framework%20-%23092E20.svg?&style=for-the-badge&logo=djangorestframework&logoColor=white"/>
+<img alt="Python" src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img alt="Django" src="https://img.shields.io/badge/django%20-%23092E20.svg?&style=for-the-badge&logo=django&logoColor=white"/> <img alt="Django Rest Framework" src="https://img.shields.io/badge/django rest framework%20-%23092E20.svg?&style=for-the-badge&logo=django&logoColor=white"/>
 
 ## 💫 Quick Start
 
