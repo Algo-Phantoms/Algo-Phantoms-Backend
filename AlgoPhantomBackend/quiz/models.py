@@ -1,24 +1,23 @@
 from django.db import models
-# Create your models here.
+
 
 QUESTION_LEVEL = (
-    ("Easy","Easy"),
-    ("Medium","Medium"),
-    ("Hard","Hard"),
+    ("Easy", "Easy"),
+    ("Medium", "Medium"),
+    ("Hard", "Hard"),
 )
-
 
 class Category(models.Model):
 
-    name=models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
 
     def __str__(self):
         return self.name
 
     class Meta:
-        verbose_name= "Category"
-        verbose_name_plural= "Categories"
-        ordering=['id']
+        verbose_name = "Category"
+        verbose_name_plural = "Categories"
+        ordering = ['id']
 
 class Quizzes(models.Model):
 
@@ -65,6 +64,4 @@ class Answer(models.Model):
         verbose_name= "Answer"
         verbose_name_plural= "Answers"
         ordering=['id']
-
- 
 

@@ -16,18 +16,8 @@ from .local_settings import *
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '*qh6y)st__^hvam8a@6ln5vz4+#_9qu$xl80oz%h9e71+-iutd'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -38,15 +28,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core.apps.CoreConfig',
-    'rest_framework',
-    'rest_framework.authtoken',
-    'rest_auth',
     'django.contrib.sites',
+
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    
+    'rest_framework',
+    'rest_framework.authtoken',
     'rest_auth.registration',
+    'rest_auth',
+    
+    'core.apps.CoreConfig',
     'quiz',
 ]
 
@@ -85,13 +78,6 @@ WSGI_APPLICATION = 'AlgoPhantomBackend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
 
 
 # Password validation
@@ -132,15 +118,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-ACCOUNT_UNIQUE_EMAIL = True
-ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_AUTHENTICATION_METHOD = 'username'
-ACCOUNT_USERNAME_REQUIRED = True
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
-#ACCOUNT_AUTHENTICATED_LOGIN_REDIRECTS = False
-#AUTH_USER_MODEL = 'core.User'
-
-
 REST_AUTH_SERIALIZERS = {
     'TOKEN_SERIALIZER': 'core.serializers.TokenSerializer',
     'USER_DETAILS_SERIALIZER': 'core.serializers.UserSerializer',
@@ -158,10 +135,12 @@ REST_FRAMEWORK = {
     ],
 }
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = EMAIL_HOST_USER
-EMAIL_HOST_PASSWORD = EMAIL_HOST_PASSWORD
+ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_AUTHENTICATION_METHOD = 'username'
+ACCOUNT_USERNAME_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+#ACCOUNT_AUTHENTICATED_LOGIN_REDIRECTS = False
+#AUTH_USER_MODEL = 'core.User'
+
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 10240
