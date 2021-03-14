@@ -17,9 +17,9 @@
 🚀 Give your DSA journey a proper guide using pathways in our application.
 
 ## 🛠 Tech Used
-- Python3
-- Django-3.1.5
-- Django REST Framework-3.12.2
+- Python
+- Django
+- Django REST Framework
 
 ## 💫 Quick Start
 
