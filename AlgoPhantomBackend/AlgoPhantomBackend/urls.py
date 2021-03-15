@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from rest_auth.registration.views import VerifyEmailView, RegisterView, LoginView
 from django.conf.urls import url
+from rest_auth.registration.views import VerifyEmailView, RegisterView, LoginView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -31,5 +31,4 @@ urlpatterns = [
     path('rest-auth/registration/', RegisterView.as_view(), name='account_signup'),
     path('rest-auth/account-confirm-email/', VerifyEmailView.as_view(),name='account_email_verification_sent'),
     url('rest-auth/account-confirm-email/(?P<key>[-:\w]+)/$', VerifyEmailView.as_view(),name='account_confirm_email'),
-
 ]
