@@ -23,8 +23,7 @@ urlpatterns = [
     path('',include('core.urls')),
     path('quiz/',include('quiz.urls')),
     
-    # path('rest-auth/', include('rest_auth.urls')),
-    path('', include('rest_auth.urls')),
+    path('rest-auth/', include('rest_auth.urls')),
     path('accounts/', include('allauth.urls')),
     path('rest-auth/login/', LoginView.as_view(), name='account_login'),
     path('registration/', include('rest_auth.registration.urls')),
