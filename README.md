@@ -44,8 +44,13 @@ env\Scripts\activate
 
 -   Create virtual environment- For Linux
 
+```
 `python3 -m venv env` or `virtualenv env`
+```
+
+```
 `source env/bin/activate`
+```
 
 -   Install dependencies using-
 
