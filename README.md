@@ -48,14 +48,14 @@ env\Scripts\activate
 python3 -m venv env
 ```
 
-or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
 
 ```
 virtualenv env
 
 ```
 
-  Start virtual environment- For Linux
+&nbsp;&nbsp;Start virtual environment- For Linux
 
 ```
 source env/bin/activate
