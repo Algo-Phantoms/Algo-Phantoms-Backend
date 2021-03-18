@@ -55,7 +55,7 @@ virtualenv env
 
 ```
 
-Start virtual environment-
+  Start virtual environment- For Linux
 
 ```
 source env/bin/activate
