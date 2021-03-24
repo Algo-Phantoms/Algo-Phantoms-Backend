@@ -127,7 +127,14 @@ ALGO-PHANTOMS-BACKEND                             # Project Name
 |   └──__pychache__                               # Cache Folder            [Default]
 |   ├──__init__.py                                #                         [Default]
 |   ├──asgi.py                                    #                         [Default]
-|   ├──settings.py                                #                         [Default]
+|   ├──settings                                   #                         [Default]
+|   |   |
+|   |   └──__pychache__
+|   |   ├──__init__.py 
+|   |   ├──base.py
+|   |   ├──development.py 
+|   |   ├──production.py 
+|   |   └──staging.py
 |   ├──urls.py                                    #                         [Default]
 |   └──wsgi.py                                    #                         [Default]
 |
