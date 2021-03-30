@@ -1,9 +1,10 @@
-from django.shortcuts import render
 from rest_framework import generics
 from rest_framework.response import Response
-from .models import *
+from rest_framework import status
 from .serializers import *
+from rest_framework.generics import ListAPIView
 from rest_framework.views import APIView
+from .pagination import QuizPagePagination
 
 class Quiz(generics.ListAPIView):
 
@@ -19,9 +20,7 @@ class RandomQuestion(APIView):
         return Response(serializer.data)
 
 
-class QuizQuestion(APIView):
-
-    def get(self, request, format=None, **kwargs):
-        quiz = Question.objects.filter(quiz__title__icontains=kwargs['topic'])
-        serializer = QuestionSerializer(quiz, many=True)
-        return Response(serializer.data)
+class QuizQuestion(ListAPIView):
+    pagination_class = QuizPagePagination
+    serializer_class = QuestionSerializer
+    queryset = Question.objects.all()
