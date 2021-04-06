@@ -29,18 +29,23 @@ class CoreRegisterSerializer(RegisterSerializer):
         adapter.save_user(request, user, self)
         return user
 
-    
+
 class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
         fields = ('email', 'username', 'password',)
 
-   
+
 class TokenSerializer(serializers.ModelSerializer):
 
     class Meta:
         model=Token
         fields = ('key','user',)
 
-   
+
+class ChangePasswordSerializer(serializers.Serializer):
+    model = User
+
+    old_password = serializers.CharField(required=True)
+    new_password = serializers.CharField(required=True)
