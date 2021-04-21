@@ -67,13 +67,13 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-_If you have python2 and python3 installed you need to specify python3 by using command:_
+_If you have python2 and python3 installed you need to specify python3 by using the command:_
 
 ```
 python3 -m pip install -r requirements.txt
 ```
 
--   Headover to Project Directory-
+-   Head over to Project Directory-
 
 ```
 cd AlgoPhantomBackend
@@ -85,7 +85,7 @@ cd AlgoPhantomBackend
 python manage.py makemigrations
 ```
 
-_If you have python2 and python3 installed you need to specify python3 by using command:_
+_If you have python2 and python3 installed you need to specify python3 by using the command:_
 
 ```
 python3 manage.py makemigrations
